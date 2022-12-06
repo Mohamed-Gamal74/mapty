@@ -1,6 +1,6 @@
 # Exercise tracker 
 
-Live Demo : https://mapttyy.netlify.app/
+Live Demo : https://mpttyy.netlify.app/
 
 # Description
 
