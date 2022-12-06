@@ -1,3 +1,19 @@
+# Exercise tracker 
+
+# Description
+
+each user can add workout in the map (running or cyclying) - all data save to firebase 
+
+# Technologies
+
+- React
+- Firebase
+- Ant Design
+- React Toastify
+- React Leaflet
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
