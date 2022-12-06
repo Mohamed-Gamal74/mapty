@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mapty/static/css/main.0aa0e256.css",
+    "main.js": "/mapty/static/js/main.04cd756d.js",
+    "static/media/img.png": "/mapty/static/media/img.26190c84de123106e2bc.png",
+    "static/media/logo.png": "/mapty/static/media/logo.9749365e69f2d8096ce6.png",
+    "index.html": "/mapty/index.html",
+    "main.0aa0e256.css.map": "/mapty/static/css/main.0aa0e256.css.map",
+    "main.04cd756d.js.map": "/mapty/static/js/main.04cd756d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aa0e256.css",
+    "static/js/main.04cd756d.js"
+  ]
+}
