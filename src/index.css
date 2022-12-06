@@ -1,0 +1,178 @@
+@import "../node_modules/leaflet/dist/leaflet.css";
+
+.leaflet-container {
+  width: 100%;
+  height: 93vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-light-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-color);
+  border-radius: 10px;
+}
+
+:root {
+  --dark-color: #2d3439;
+  --dark-light-color: #42484d;
+  --green-color: #00c56a;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.green {
+  background-color: #00c56a;
+}
+
+.greenText {
+  color: #00c56a;
+}
+
+.dark {
+  background-color: #2d3439;
+}
+
+.darkLight {
+  background-color: #82878b;
+}
+
+footer {
+  background-color: var(--dark-light-color);
+  position: absolute;
+  bottom: 0%;
+  height: 7vh;
+  z-index: 10;
+}
+
+#home {
+  z-index: 1;
+  padding: 20px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+#map {
+  width: 70%;
+  height: 93vh;
+}
+
+#overlay {
+  background-color: rgba(5, 5, 5, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+#overlay p {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#overlay input {
+  width: 150px;
+}
+
+#card {
+  background-color: var(--dark-light-color);
+  width: 400px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+.greenBorder {
+  border-left: 7px solid var(--green-color);
+}
+
+.yellowBorder {
+  border-left: 7px solid #ffb545;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: var(--dark-color);
+  color: #fff;
+  font-weight: 500;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#sidebar {
+  width: 30%;
+  height: 93vh;
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+#cardContainer {
+  height: 77vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#cardContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #sidebar {
+    width: 100%;
+    padding: 3rem 1rem 3rem 1rem;
+    order: 2;
+  }
+
+  #home {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  #cardContainer {
+    height: 70vh;
+  }
+
+  #map {
+    width: 100%;
+    order: 1;
+  }
+
+  #card {
+    width: 100%;
+  }
+}
